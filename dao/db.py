@@ -3,7 +3,7 @@ import pymysql
 
 class MyDB():
     def __init__(self):
-        self.conn = pymysql.connect("10.11.47.114", "lhf", "lhf123", "sjk_demo")
+        self.conn = pymysql.connect("10.11.65.190", "lsj", "123456", "lsj_test")
         # 返回值为dict形式
         self.cursor = self.conn.cursor(pymysql.cursors.DictCursor)
 
